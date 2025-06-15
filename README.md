@@ -1,52 +1,52 @@
-# Visionary AI: Eye Disease Detection System 👁️‍🗨️
+# 👁️ Visionary AI: Eye Disease Detection System
 
-![Project Banner](banner.png) <!-- Replace with your actual banner image URL -->
-
-## You can access the ALL project Folder and File From : https://drive.google.com/drive/folders/1LPbc0aRUaqSvNszOBN57PO2gyv8-5p7f
-
-
-## You can access the Kaggle Dataset From :https://www.kaggle.com/datasets/linchundan/fundusimage1000
-
-
-
-## you can access the documentation of the project from :https://drive.google.com/file/d/1f0uBF1pMnJ36LEXkPNvi68bWdLYzVoxF/view?usp=sharing
-
+<p align="center">
+  <img src="banner.png" alt="Project Banner" width="100%" height="auto"/>
+</p>
 
 ---
 
-## Table of Contents
+## 🔗 Project Resources
 
-- [Project Overview](#project-overview)
-- [Key Features](#key-features)
-- [System Architecture](#system-architecture)
-- [Installation Guide](#installation-guide)
-- [Dataset Preparation](#dataset-preparation)
-- [Model Training](#model-training)
-- [Running the Application](#running-the-application)
-- [User Interfaces](#user-interfaces)
-- [Technical Specifications](#technical-specifications)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
+- 📁 **Complete Project Folder**: [Google Drive Folder](https://drive.google.com/drive/folders/1LPbc0aRUaqSvNszOBN57PO2gyv8-5p7f)
+- 📊 **Kaggle Dataset**: [FundusImage1000 Dataset](https://www.kaggle.com/datasets/linchundan/fundusimage1000)
+- 📄 **Project Documentation**: [Download PDF](https://drive.google.com/file/d/1f0uBF1pMnJ36LEXkPNvi68bWdLYzVoxF/view?usp=sharing)
 
 ---
 
-## Project Overview
+## 📚 Table of Contents
 
-**Visionary AI** is an advanced deep learning system for detecting 39 different eye diseases from fundus images. Developed for the C-DAC Hackathon, this solution combines cutting-edge computer vision with a user-friendly interface for medical professionals.
+- [🔍 Project Overview](#-project-overview)
+- [✨ Key Features](#-key-features)
+- [🏗️ System Architecture](#-system-architecture)
+- [⚙️ Installation Guide](#-installation-guide)
+- [🗃️ Dataset Preparation](#-dataset-preparation)
+- [🧠 Model Training](#-model-training)
+- [🚀 Running the Application](#-running-the-application)
+- [🖥️ User Interfaces](#-user-interfaces)
+- [🧪 Technical Specifications](#-technical-specifications)
+- [🛠️ Troubleshooting](#-troubleshooting)
+- [📄 License & Author](#-license--author)
 
 ---
 
-## Key Features
+## 🔍 Project Overview
 
-- 🚀 **39-Class Disease Detection**
-- 🖼️ **Image Upload & Analysis Interface**
-- 🔍 **Grad-CAM Visualization**
-- 📊 **Confidence Scoring**
-- 🏗️ **Modular & Scalable Architecture**
+**Visionary AI** is a deep learning-based eye disease detection system capable of identifying **39 different eye conditions** using fundus images. Designed for medical professionals, this tool combines **EfficientNet**, **Grad-CAM**, and a sleek **Flask interface** to deliver high-accuracy predictions with interpretability.
 
 ---
 
-## System Architecture
+## ✨ Key Features
+
+- ✅ **39-Class Fundus Image Classification**
+- 🖼️ **Drag & Drop Image Upload**
+- 🌡️ **Confidence Scores**
+- 🔥 **Grad-CAM Heatmap Visualizations**
+- 🧱 **Modular Flask-based Architecture**
+
+---
+
+## 🏗️ System Architecture
 
 ```mermaid
 graph TD
@@ -54,9 +54,8 @@ graph TD
     B --> C[Image Preprocessing]
     C --> D[EfficientNetB4 Model]
     D --> E[Disease Prediction]
-    E --> F[Result Visualization]
+    E --> F[Grad-CAM Visualization]
     F --> A
-```
 
 ---
 
@@ -155,7 +154,10 @@ Open your browser and go to: [http://localhost:5000](http://localhost:5000)
 
 ### 1. Upload Interface
 
-![Upload Interface](1st.png) <!-- Replace with actual screenshot -->
+### 🖥️ User Interfaces
+### 📤 Upload Page
+<p align="center"> <img src="1st.png" alt="Upload Interface" width="600px" height="auto"/> </p>
+
 
 **Features:**
 
@@ -166,7 +168,7 @@ Open your browser and go to: [http://localhost:5000](http://localhost:5000)
 
 ### 2. Results Interface
 
-![Results Interface](result.png) <!-- Replace with actual screenshot -->
+<p align="center"> <img src="result.png" alt="Results Interface" width="600px" height="auto"/> </p>
 
 **Components:**
 
@@ -174,6 +176,9 @@ Open your browser and go to: [http://localhost:5000](http://localhost:5000)
 - Disease prediction with confidence
 - Grad-CAM heatmap visualization
 - Action buttons for new analysis
+
+📊 Results Page
+
 
 ---
 
