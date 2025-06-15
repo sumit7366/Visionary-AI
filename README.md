@@ -1,7 +1,7 @@
 # 👁️ Visionary AI: Eye Disease Detection System
 
 <p align="center">
-  <img src="banner.png" alt="Project Banner" width="50%" height="auto"/>
+  <img src="banner.png" alt="Project Banner" width="100%" height="auto"/>
 </p>
 
 ---
