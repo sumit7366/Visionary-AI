@@ -2,27 +2,15 @@
 
 ![Project Banner](banner.png) <!-- Replace with your actual banner image URL -->
 
-## You can access the ALL project Folder and File From : 
+## You can access the ALL project Folder and File From : https://drive.google.com/drive/folders/1LPbc0aRUaqSvNszOBN57PO2gyv8-5p7f
 
-```
-https://drive.google.com/drive/folders/1LPbc0aRUaqSvNszOBN57PO2gyv8-5p7f
 
-```
+## You can access the Kaggle Dataset From :https://www.kaggle.com/datasets/linchundan/fundusimage1000
 
-## You can access the Kaggle Dataset From : 
 
-```
-https://www.kaggle.com/datasets/linchundan/fundusimage1000
 
-```
+## you can access the documentation of the project from :https://drive.google.com/file/d/1f0uBF1pMnJ36LEXkPNvi68bWdLYzVoxF/view?usp=sharing
 
-## you can access the documentation of the project from : 
-
-```
-
-https://drive.google.com/file/d/1f0uBF1pMnJ36LEXkPNvi68bWdLYzVoxF/view?usp=sharing
-
-```
 
 ---
 
@@ -228,19 +216,15 @@ Open your browser and go to: [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 <div align="center">
-  <p>Developed with ❤️ for C-DAC Hackathon</p>
+  <p>Developed with ❤️ Sumit Kumar </p>
   <div>
-    <a href="https://github.com/yourusername" target="_blank">
+    <a href="https://github.com/sumit7366" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
     </a>
-    <a href="https://linkedin.com/in/yourprofile" target="_blank">
+    <a href="https://linkedin.com/in/sumit7366" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
     </a>
   </div>
