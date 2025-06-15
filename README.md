@@ -8,7 +8,7 @@
 
 ## 🔗 Project Resources
 
-- 📁 **Complete Project Folder**: [Google Drive Folder](https://drive.google.com/drive/folders/1LPbc0aRUaqSvNszOBN57PO2gyv8-5p7f)
+- 📁 **Complete Project Folder**: [Download folder](https://drive.google.com/drive/folders/1LPbc0aRUaqSvNszOBN57PO2gyv8-5p7f)
 - 📊 **Kaggle Dataset**: [FundusImage1000 Dataset](https://www.kaggle.com/datasets/linchundan/fundusimage1000)
 - 📄 **Project Documentation**: [Download PDF](https://drive.google.com/file/d/1f0uBF1pMnJ36LEXkPNvi68bWdLYzVoxF/view?usp=sharing)
 
@@ -70,9 +70,37 @@ graph LR
     E --> F[Result Generation]
     F --> A
 ```
+### Introduction and Problem Statement 
+## 🌍 Global Eye Health Crisis
+
+> 👁️ **2.2 billion** people suffer from vision impairment worldwide  
+> 💉 **1 billion** cases could have been prevented or treated  
+> 🌐 **80%** of blindness occurs in developing regions
+
+---
+
+## 🚧 Current Diagnostic Challenges
+
+| Challenge                   | Description                                                               |
+|-----------------------------|---------------------------------------------------------------------------|
+| 👨‍⚕️ Specialist Shortage      | Only **1 ophthalmologist per 100,000** people in rural areas               |
+| ⏱️ Manual Screening Delay   | Takes **5–10 minutes** per image to manually analyze                       |
+| 🔄 Diagnostic Variability   | **15–20% inter-observer disagreement** in manual diagnosis                 |
+| 💰 Cost Barriers            | Eye exams cost **$50–$100**, limiting access in low-income regions         |
+
+### Solution Framework
+```mermaid
+graph TD
+    A[Fundus Image] --> B[AI Preprocessing]
+    B --> C[Deep Learning Model]
+    C --> D[Disease Classification]
+    D --> E[Visual Explanation]
+    E --> F[Clinical Decision Support]
+
+```
 
 ### 🧩 Component Specifications & Data Flow
-## 📦 3.2 Component Specifications
+## 📦 Component Specifications
 
 | Component     | Technology     | Version | Function                             |
 |---------------|----------------|---------|--------------------------------------|
@@ -83,7 +111,7 @@ graph LR
 | Deployment    | Docker         | 20.10   | Containerization and portability     |
 
 
-## 🔄 3.3 Data Flow
+## 🔄  Data Flow
 
 | Phase             | Description                                               |
 |-------------------|-----------------------------------------------------------|
