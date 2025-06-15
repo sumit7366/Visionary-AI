@@ -57,6 +57,15 @@ graph TD
     E --> F[Grad-CAM Visualization]
     F --> A
 ```
+```mermaid
+graph LR
+    A[User Interface] --> B[Flask Web Server]
+    B --> C[Image Processing]
+    C --> D[EfficientNetB4 Model]
+    D --> E[Grad-CAM Engine]
+    E --> F[Result Generation]
+    F --> A
+```
 ---
 
 ## Installation Guide
