@@ -56,7 +56,7 @@ graph TD
     D --> E[Disease Prediction]
     E --> F[Grad-CAM Visualization]
     F --> A
-
+```
 ---
 
 ## Installation Guide
