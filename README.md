@@ -57,6 +57,10 @@ graph TD
     E --> F[Grad-CAM Visualization]
     F --> A
 ```
+
+--- 
+
+
 ```mermaid
 graph LR
     A[User Interface] --> B[Flask Web Server]
@@ -66,6 +70,30 @@ graph LR
     E --> F[Result Generation]
     F --> A
 ```
+
+### 🧩 Component Specifications & Data Flow
+## 📦 3.2 Component Specifications
+
+| Component     | Technology     | Version | Function                             |
+|---------------|----------------|---------|--------------------------------------|
+| Frontend      | HTML/CSS/JS    | ES6     | User interface                       |
+| Backend       | Flask          | 2.0.1   | Application server                   |
+| AI Engine     | TensorFlow     | 2.6.0   | Model execution                      |
+| Visualization | OpenCV         | 4.5.3   | Image preprocessing & rendering      |
+| Deployment    | Docker         | 20.10   | Containerization and portability     |
+
+
+## 🔄 3.3 Data Flow
+
+| Phase             | Description                                               |
+|-------------------|-----------------------------------------------------------|
+| 📤 Upload         | User submits fundus image (JPG/PNG)                       |
+| 🧹 Preprocessing  | Image normalization and enhancement                       |
+| 🧠 Inference      | Disease classification via neural network                 |
+| 🎯 Explanation    | Attention visualization generation (e.g., Grad-CAM)       |
+| 📊 Delivery       | Results (prediction + confidence + heatmap) presented     |
+
+
 ---
 
 ## Installation Guide
